@@ -1,0 +1,70 @@
+body{
+    background-image: url(https://images.unsplash.com/photo-1625225233840-695456021cde?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:650px
+}
+
+
+.div{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-div{
+    height: auto;
+    width: 170px;
+    padding: 20px;
+    background-color: rgb(76, 78, 78); 
+}
+
+.row{
+    display: flex;
+}
+
+
+.display{
+    height: 40px;
+    width: 155px;
+    border: solid 1px;
+    text-align: right;
+    border-width: 3px;
+    margin-bottom: 5px;
+    margin: 5px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.button{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: white;
+}
+
+.operator-button{
+    width: 30px;
+    height: 40px;
+    background-color: rgb(217, 221, 215);
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.clear-button{
+    width: 100px;
+    height: 40px;
+    border-width: 3px;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: red;
+}
+
+.backSpace-button{
+    width: 50px;
+    height: 40px;
+    border-width: 3px;
+    border-radius: 5px;
+    margin: 5px;
+}
